@@ -33,3 +33,10 @@ print(it_companies)
 
 joined_it_companies = "#; ".join(it_companies)
 print(joined_it_companies)
+
+print("Instagram" in it_companies)
+it_companies.sort()
+print(it_companies)
+
+sorted_list = sorted(it_companies)
+print(sorted_list)
