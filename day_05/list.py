@@ -40,3 +40,9 @@ print(it_companies)
 
 sorted_list = sorted(it_companies)
 print(sorted_list)
+
+print(it_companies.sort(reverse=True))
+print(it_companies[0:3])
+print(it_companies[-3:])
+print(it_companies[len(it_companies) // 2])
+print(it_companies.remove("Meta"))
