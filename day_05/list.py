@@ -46,3 +46,19 @@ print(it_companies[0:3])
 print(it_companies[-3:])
 print(it_companies[len(it_companies) // 2])
 print(it_companies.remove("Meta"))
+print(it_companies.pop())
+print(it_companies.pop(-1))
+print(it_companies.clear())
+print(it_companies)
+del it_companies
+#print(it_companies)  # This will raise an error since it_companies has been deleted
+
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+print(", ".join(front_end + back_end))
+joined_list = front_end + back_end
+print(joined_list)
+full_stack = joined_list.copy()
+joined_list.insert(5, 'Python')
+joined_list.insert(6, 'SQL')
+print(joined_list)
