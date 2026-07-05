@@ -62,3 +62,26 @@ full_stack = joined_list.copy()
 joined_list.insert(5, 'Python')
 joined_list.insert(6, 'SQL')
 print(joined_list)
+
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort()
+print(ages)
+sorted_ages = sorted(ages)
+print(sorted_ages)
+ages.reverse()
+print(ages)
+ages.sort(reverse=True)
+print(ages)
+ages_set = set(ages)
+print(ages_set)
+
+min_age = min(ages)
+max_age = max(ages)
+print(f"Min age: {min_age}, Max age: {max_age}")
+
+ages.insert(0, min_age)
+ages.append(max_age)
+print(ages)
+
+median_age = ages[len(ages) // 2]
+print(f"Median age: {median_age}")
