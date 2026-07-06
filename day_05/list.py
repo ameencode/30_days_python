@@ -85,3 +85,28 @@ print(ages)
 
 median_age = ages[len(ages) // 2]
 print(f"Median age: {median_age}")
+average_age = sum(ages) / len(ages)
+print(f"Average age: {average_age}")
+range_of_ages = max_age - min_age
+print(f"Range of ages: {range_of_ages}")
+
+countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+mid_country = countries[len(countries) // 2]
+print(f"Middle country: {mid_country}")
+
+country_divide = len(countries) // 2
+first_half = countries[:country_divide]
+second_half = countries[country_divide:]
+print(f"First half: {first_half}, Second half: {second_half}")    
+
+countries_divide = len(countries) // 2
+if len(countries) % 2 == 0:
+    first_half = countries[:countries_divide]
+    second_half = countries[countries_divide:]
+else:
+    first_half = countries[:countries_divide + 1]
+    second_half = countries[countries_divide + 1:]
+print(f"First half: {first_half}, Second half: {second_half}")
+
+CHN, RUS, US, *Scandiv_countries = countries
+print(f"CHN: {CHN}, RUS: {RUS}, US: {US}, Scandiv_countries: {Scandiv_countries}")
