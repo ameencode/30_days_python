@@ -110,3 +110,5 @@ print(f"First half: {first_half}, Second half: {second_half}")
 
 CHN, RUS, US, *Scandiv_countries = countries
 print(f"CHN: {CHN}, RUS: {RUS}, US: {US}, Scandiv_countries: {Scandiv_countries}")
+empty_list = []
+print(empty_list)
