@@ -36,3 +36,11 @@ def check_season(month):
         return 'Invalid Month'
 print(check_season(input('Input the name of a month')))
 
+def calculate_slope(x1, x2, y1, y2):
+    if x2 == x1:
+        return "Undefined (vertical line)"
+    slope = (y2 - y1) / (x2 - x1)
+    return slope
+print(calculate_slope(2, 5, 3, 4))
+
+
